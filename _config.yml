@@ -4,7 +4,7 @@ email: kontakt@andrzejklapec.pl
 description: Contacts app
 keywords: contacts-app, contacts
 
-baseurl: "" # Change to "" for local development
+baseurl: "/contacts-app-layout" # Change to "" for local development
 url: "http://klapec.github.io/contacts-app" # Change to your remote URL
 
 markdown: redcarpet

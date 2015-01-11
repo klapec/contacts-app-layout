@@ -1,0 +1,71 @@
+/****************************************************
+*  Main section
+*/
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $color-border;
+  padding: 1em;
+  height: $height-header;
+}
+
+.section-title {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.add-new-contact {
+  color: $color-font-positive;
+  display: inline-block;
+  margin-left: .5em;
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.contacts {
+  flex: 1;
+}
+
+.tags {
+  padding-right: 1.5em;
+  border-right: 1px solid $color-border;
+  min-width: 10em;
+}
+
+.contact {
+  padding: 1em 1.5em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $color-border;
+}
+
+.selected {
+  padding-left: 1.5em - em(2px); //Subtracts border width (converted to ems) from default padding
+}
+
+.contact-photo {
+  height: 35px;
+  width: 35px;
+}
+
+.contact-name {
+  flex-grow: 1;
+  margin: 0 1.5em;
+}
+
+.contact-company {
+  color: $color-font-contact-desc;
+  font-size: .8em;
+  letter-spacing: .1em;
+}

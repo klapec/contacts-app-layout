@@ -1,0 +1,18 @@
+title: Contacts app
+author: Andrzej Kłapeć
+email: kontakt@andrzejklapec.pl
+description: Contacts app
+keywords: contacts-app, contacts
+
+baseurl: "" # Change to "" for local development
+url: "http://klapec.github.io/contacts-app" # Change to your remote URL
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["smart", "autolink", "tables", "no_intra_emphasis", "strikethrough", "underline", "quote", "footnotes"]
+
+exclude: ['assets/src', 'node_modules', 'package.json', 'gulpfile.js', 'LICENSE', 'README.md', 'contacts-app.sublime-project']
+
+timezone: Europe/Warsaw
+
+permalink: none

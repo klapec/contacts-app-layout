@@ -1,0 +1,54 @@
+/****************************************************
+*  Details
+*/
+
+.details {
+  flex: 0 0 auto;
+  min-width: 18em;
+  border-left: 1px solid $color-border;
+
+  .menu-group {
+    padding: 1em 0;
+  }
+}
+
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $color-border-accent;
+  padding: 1em;
+  min-height: $height-header;
+
+  a {
+    line-height: 1.2; // Helps aligning tooltips vertically
+  }
+}
+
+.header-item a:last-of-type svg {
+  margin-right: 0;
+}
+
+.selected-contact {
+  align-items: center;
+  background-color: $color-background-accent;
+  color: $color-white;
+  display: flex;
+  padding: 2em 1em;
+
+  img {
+    padding-right: 1em;
+  }
+}
+
+.contact-info {
+  line-height: 1.5;
+}
+
+.contact-desc--selected {
+  color: $color-blue-dark;
+}
+
+.contact-detail a {
+  color: $color-font-accent;
+}

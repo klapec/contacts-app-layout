@@ -1,0 +1,20 @@
+/****************************************************
+*  Icons
+*/
+
+.icon {
+  fill: $color-icon;
+  height: 18px;
+  width: 18px;
+  margin-right: 1em;
+  vertical-align: middle;
+  transform: translateY(-.2em); // Vertical alignment fix
+}
+
+#icon-add {
+  fill: $color-icon-positive;
+}
+
+#icon-remove {
+  fill: $color-icon-negative;
+}

@@ -1,0 +1,168 @@
+---
+layout: default
+---
+{% include sidebar.html %}
+<div class="main">
+  <header class="main-header">
+    <div class="header-item">
+      <h1 class="section-title">Contacts</h1>
+      <a href="javascript:;" class="tooltip-right" data-tooltip="Create a new contact"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-add" /></svg><h2 class="add-new-contact">New contact</h2></a>
+    </div>
+    <div class="header-item">
+      <a href="javascript:;" class="tooltip-left" data-tooltip="Import contacts"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-import" /></svg></a>
+      <a href="javascript:;" class="tooltip-left" data-tooltip="Export contacts"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-export" /></svg></a>
+    </div>
+  </header>
+  <div class="contacts-wrapper">
+    <div class="tags">
+      <div class="menu-group">
+        <span class="list-title">Tags</span>
+        <ul class="menu-list">
+          <li class="menu-list__item selected">
+            <a href="javascript:;">All</a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="tag-company"></a>
+          </li>
+          <li class="menu-list__item">
+            <a href="javascript:;" class="new-tag">Create a new tag</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="contacts">  
+      <ul class="contacts-list">
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-1.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact selected">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-sips.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">  
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-3.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-4.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-lewis.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-6.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-7.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-8.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+        <li>
+          <a href="javascript:;" class="contact">
+            <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-9.png" alt="Contact photo" class="contact-photo">
+            <h2 class="contact-name"></h2>
+            <span class="contact-company"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="details">
+  <header class="details-header">
+    <div class="header-item">
+      <a href="javascript:;" class="tooltip-left" data-tooltip="Hide details"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-hidesidebar" /></svg></a>
+    </div>
+    <div class="header-item">
+      <a href="javascript:;" class="tooltip-left" data-tooltip="Add contact information"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-add-detail" /></svg></a>
+      <a href="javascript:;" class="tooltip-left" data-tooltip="Remove contact"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-remove" /></svg></a>
+    </div>
+  </header>
+  <div class="selected-contact">
+    <img src="{{ site.baseurl }}/assets/dist/images/photos/contact-sips.png" alt="Contact's photo">
+    <div class="contact-info">
+      <h1 class="contact-name--selected">Chris Lovasz</h1>
+      <span class="contact-desc--selected">SipsCo</span>
+    </div>
+  </div>
+  <div class="menu-group">
+    <span class="list-title">Contact</span>
+    <ul class="menu-list">
+      <li class="menu-list__item contact-detail">
+        <a href="javascript:;"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-contact-twitter" /></svg>@sips_</a>
+      </li>
+      <li class="menu-list__item contact-detail">
+        <a href="javascript:;"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-contact-phone" /></svg>+48 512 345 678</a>
+      </li>
+      <li class="menu-list__item contact-detail">
+        <a href="javascript:;"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-contact-email" /></svg>sips@yogscast.com</a>
+      </li>
+      <li class="menu-list__item contact-detail">
+        <a href="javascript:;"><svg class="icon"><use xlink:href="{{ site.baseurl }}/assets/dist/svg/sprite.svg#icon-contact-website" /></svg>http://yogscast.com</a>
+      </li>
+    </ul>
+  </div>
+  <div class="menu-group">
+    <span class="list-title">Team members</span>
+    <ul class="menu-list">
+      <li class="menu-list__item contact-detail">
+        <a href="javascript:;">Lewis Brindley</a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,73 @@
+/****************************************************
+*  Typography
+*/
+
+$font-family: Nunito, sans-serif;
+
+$font-size-base: 1em;
+$font-size-base-px: 14px;
+$font-size-h1: $font-size-base * 1.25;
+$font-size-h2: $font-size-base * 1.15;
+
+$line-height-base: 2;
+
+
+
+/****************************************************
+*  Colors
+*/
+
+/* Base palette */
+$color-white: rgba(255, 255, 255, 1);
+$color-gray: rgba(204, 218, 229, 1);
+$color-gray-dark: rgb(168, 179, 188);
+$color-black: rgba(90, 92, 92, 1);
+$color-blue: rgba(63, 130, 212, 1);
+$color-blue-dark: mix($color-blue, #fff, 60%);
+$color-blue-light: rgba(246, 250, 252, 1);
+$color-green: RGBA(0, 227, 44, 1);
+$color-red: rgba(225, 61, 70, 1);
+
+$color-accent: $color-blue;
+
+/* Background colors */
+$color-background-base: $color-white;
+$color-background-sidebar: $color-blue-light;
+$color-background-accent: $color-accent;
+$color-background-notification: $color-red;
+
+/* Font colors */
+$color-font-base: $color-black;
+$color-font-accent: $color-accent;
+$color-font-list-title: $color-gray-dark;
+$color-font-contact-desc: $color-gray-dark;
+$color-font-notification: $color-white;
+$color-font-positive: $color-green;
+$color-font-negative: $color-red;
+
+/* Link colors */
+$color-link: $color-font-base;
+$color-link-hover: mix($color-link, #fff, 50%);
+
+/* Border colors */
+$color-border: $color-gray;
+$color-border-accent: $color-accent;
+
+/* Button colors */
+$color-button-positive: $color-green;
+$color-button-negative: $color-red;
+
+/* Icon colors */
+$color-icon: $color-blue;
+$color-icon-positive: $color-green;
+$color-icon-negative: $color-red;
+
+
+
+/****************************************************
+*  Misc
+*/
+
+/* Sizes */
+
+$height-header: 65px;

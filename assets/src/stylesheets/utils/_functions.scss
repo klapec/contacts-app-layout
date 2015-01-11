@@ -1,0 +1,8 @@
+/****************************************************
+*  Sass functions
+*/
+
+// Converts pixels to ems
+@function em($px, $base: $font-size-base-px) {
+    @return ($px / $base) * 1em;
+}

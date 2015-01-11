@@ -1,0 +1,40 @@
+/****************************************************
+*  Lists
+*/
+
+.app-title {
+  color: $color-font-accent;
+}
+
+.menu-group {
+  padding: 1em 0;
+}
+
+.list-title {
+  color: $color-font-list-title;
+  font-size: .7em;
+  font-weight: 400;
+  letter-spacing: .1em;
+  padding-left: 1em;
+  text-transform: uppercase;
+}
+
+.menu-list {
+  margin: .3em 0;
+}
+
+.menu-list__item {
+  padding-left: 1.5em;
+}
+
+.menu-list__item.selected {
+  padding-left: 1.5em - em(2px); //Subtracts border's width (converted to ems) from default padding
+}
+
+.selected {
+  border-left: 2px solid $color-border-accent;
+}
+
+.new-tag {
+  color: $color-font-accent;
+}

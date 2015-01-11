@@ -1,0 +1,60 @@
+/****************************************************
+*  Tooltips
+*/
+
+// Base styles for the element that has a tooltip
+[data-tooltip],
+.tooltip {
+  position: relative;
+}
+
+// Base styles for the entire tooltip
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition:         
+    opacity .4s ease-in-out,
+    visibility .4s ease-in-out;
+  pointer-events: none;
+}
+
+// Show the entire tooltip on hover
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+.tooltip:hover:before,
+.tooltip:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+// Base styles for the tooltip's content area
+.tooltip:after,
+[data-tooltip]:after {
+  padding: 1em;
+  background-color: $color-white;
+  border: 1px solid $color-border;
+  border-radius: .5em;
+  color: $color-blue;
+  content: attr(data-tooltip);
+  line-height: 1;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+// Left */
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 3em;
+  bottom: -1em;
+}
+
+// Right */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: -1em;
+  left: 110%;
+}
